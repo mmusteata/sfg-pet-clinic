@@ -57,7 +57,8 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:mmusteata/sfg-pet-clinic.git</developerConnection>
+        <url>https://github.com/mmusteata/sfg-petclinic.git</url>
+        <connection>scm:git:https://github.com/mmusteata/sfg-petclinic.git</connection>
         <tag>HEAD</tag>
   </scm>
 

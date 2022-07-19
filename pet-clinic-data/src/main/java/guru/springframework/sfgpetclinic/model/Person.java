@@ -4,14 +4,12 @@ package guru.springframework.sfgpetclinic.model;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.io.Serializable;
-
 
 @Getter
 @Setter
-public class Person implements Serializable {
+public class Person extends BaseEntity {
 
-  private String firstName;
-  private String lastName;
+    private String firstName;
+    private String lastName;
 
 }

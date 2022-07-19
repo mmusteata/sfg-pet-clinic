@@ -11,8 +11,8 @@ import java.time.LocalDate;
 @Setter
 public class Pet implements Serializable {
 
-  private PetType petType;
-  private Owner owner;
-  private LocalDate birthDay;
+    private PetType petType;
+    private Owner owner;
+    private LocalDate birthDay;
 
 }

@@ -11,6 +11,6 @@ import java.io.Serializable;
 @Setter
 public class PetType implements Serializable {
 
-  private String name;
+    private String name;
 
 }

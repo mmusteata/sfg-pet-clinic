@@ -9,7 +9,7 @@ import java.time.LocalDate;
 
 @Getter
 @Setter
-public class Pet implements Serializable {
+public class Pet extends BaseEntity implements Serializable {
 
     private PetType petType;
     private Owner owner;
